@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3A379E7F26D6C1A60041FDBF /* PauloTela1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A379E7E26D6C1A60041FDBF /* PauloTela1ViewController.swift */; };
 		3A379E8126D6C1B30041FDBF /* PauloTela1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A379E8026D6C1B30041FDBF /* PauloTela1.storyboard */; };
+		3A379E8426D6C5A50041FDBF /* PauloTela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A379E8326D6C5A50041FDBF /* PauloTela2ViewController.swift */; };
+		3A379E8626D6C5AF0041FDBF /* PauloTela2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A379E8526D6C5AF0041FDBF /* PauloTela2.storyboard */; };
 		65B6E07826D6B7FA00A54D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E07726D6B7FA00A54D6C /* AppDelegate.swift */; };
 		65B6E07A26D6B7FA00A54D6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E07926D6B7FA00A54D6C /* SceneDelegate.swift */; };
 		65B6E07C26D6B7FA00A54D6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E07B26D6B7FA00A54D6C /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		3A379E7E26D6C1A60041FDBF /* PauloTela1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauloTela1ViewController.swift; sourceTree = "<group>"; };
 		3A379E8026D6C1B30041FDBF /* PauloTela1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PauloTela1.storyboard; sourceTree = "<group>"; };
+		3A379E8326D6C5A50041FDBF /* PauloTela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauloTela2ViewController.swift; sourceTree = "<group>"; };
+		3A379E8526D6C5AF0041FDBF /* PauloTela2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PauloTela2.storyboard; sourceTree = "<group>"; };
 		65B6E07426D6B7FA00A54D6C /* BrincandoDeMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrincandoDeMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B6E07726D6B7FA00A54D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B6E07926D6B7FA00A54D6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 			path = PauloTela1;
 			sourceTree = "<group>";
 		};
+		3A379E8226D6C5910041FDBF /* PauloTela2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A379E8326D6C5A50041FDBF /* PauloTela2ViewController.swift */,
+				3A379E8526D6C5AF0041FDBF /* PauloTela2.storyboard */,
+			);
+			path = PauloTela2;
+			sourceTree = "<group>";
+		};
 		65B6E06B26D6B7F900A54D6C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 		65B6E07626D6B7FA00A54D6C /* BrincandoDeMerge */ = {
 			isa = PBXGroup;
 			children = (
+				3A379E8226D6C5910041FDBF /* PauloTela2 */,
 				65B6E09C26D6C46600A54D6C /* TononTela02 */,
 				3A379E7B26D6C1740041FDBF /* PauloTela1 */,
 				65B6E09026D6BC5200A54D6C /* Segundo */,
@@ -174,6 +188,7 @@
 				65B6E09626D6BCA100A54D6C /* SegundoVC.xib in Resources */,
 				65B6E08126D6B7FC00A54D6C /* Assets.xcassets in Resources */,
 				65B6E09226D6BC6800A54D6C /* Segundo.storyboard in Resources */,
+				3A379E8626D6C5AF0041FDBF /* PauloTela2.storyboard in Resources */,
 				65B6E09E26D6C48900A54D6C /* TononTela02.storyboard in Resources */,
 				65B6E07F26D6B7FA00A54D6C /* Main.storyboard in Resources */,
 			);
@@ -186,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A379E8426D6C5A50041FDBF /* PauloTela2ViewController.swift in Sources */,
 				65B6E09526D6BCA100A54D6C /* SegundoVC.swift in Sources */,
 				65B6E0A026D6C49F00A54D6C /* TononTela02ViewController.swift in Sources */,
 				3A379E7F26D6C1A60041FDBF /* PauloTela1ViewController.swift in Sources */,
