@@ -24,6 +24,10 @@
 		65B6E09626D6BCA100A54D6C /* SegundoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E09426D6BCA100A54D6C /* SegundoVC.xib */; };
 		65B6E09E26D6C48900A54D6C /* TononTela02.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E09D26D6C48900A54D6C /* TononTela02.storyboard */; };
 		65B6E0A026D6C49F00A54D6C /* TononTela02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E09F26D6C49F00A54D6C /* TononTela02ViewController.swift */; };
+		65B6E0A326D6C99E00A54D6C /* Tela4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E0A226D6C99E00A54D6C /* Tela4.storyboard */; };
+		65B6E0A626D6C9BA00A54D6C /* Tela4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E0A426D6C9B900A54D6C /* Tela4ViewController.swift */; };
+		65B6E0A726D6C9BA00A54D6C /* Tela4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E0A526D6C9B900A54D6C /* Tela4ViewController.xib */; };
+		65B6E0A926D6C9D200A54D6C /* Tela4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E0A826D6C9D200A54D6C /* Tela4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		65B6E09426D6BCA100A54D6C /* SegundoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegundoVC.xib; sourceTree = "<group>"; };
 		65B6E09D26D6C48900A54D6C /* TononTela02.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TononTela02.storyboard; sourceTree = "<group>"; };
 		65B6E09F26D6C49F00A54D6C /* TononTela02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TononTela02ViewController.swift; sourceTree = "<group>"; };
+		65B6E0A226D6C99E00A54D6C /* Tela4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela4.storyboard; sourceTree = "<group>"; };
+		65B6E0A426D6C9B900A54D6C /* Tela4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela4ViewController.swift; sourceTree = "<group>"; };
+		65B6E0A526D6C9B900A54D6C /* Tela4ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tela4ViewController.xib; sourceTree = "<group>"; };
+		65B6E0A826D6C9D200A54D6C /* Tela4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 		65B6E07626D6B7FA00A54D6C /* BrincandoDeMerge */ = {
 			isa = PBXGroup;
 			children = (
+				65B6E0A126D6C97E00A54D6C /* TononTela4 */,
 				3A379E8726D6C6F50041FDBF /* PauloTela3 */,
 				3A379E8226D6C5910041FDBF /* PauloTela2 */,
 				65B6E09C26D6C46600A54D6C /* TononTela02 */,
@@ -138,6 +147,17 @@
 				65B6E09F26D6C49F00A54D6C /* TononTela02ViewController.swift */,
 			);
 			path = TononTela02;
+			sourceTree = "<group>";
+		};
+		65B6E0A126D6C97E00A54D6C /* TononTela4 */ = {
+			isa = PBXGroup;
+			children = (
+				65B6E0A226D6C99E00A54D6C /* Tela4.storyboard */,
+				65B6E0A426D6C9B900A54D6C /* Tela4ViewController.swift */,
+				65B6E0A526D6C9B900A54D6C /* Tela4ViewController.xib */,
+				65B6E0A826D6C9D200A54D6C /* Tela4.swift */,
+			);
+			path = TononTela4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +223,9 @@
 				65B6E09626D6BCA100A54D6C /* SegundoVC.xib in Resources */,
 				65B6E08126D6B7FC00A54D6C /* Assets.xcassets in Resources */,
 				65B6E09226D6BC6800A54D6C /* Segundo.storyboard in Resources */,
+				65B6E0A726D6C9BA00A54D6C /* Tela4ViewController.xib in Resources */,
 				3A379E8626D6C5AF0041FDBF /* PauloTela2.storyboard in Resources */,
+				65B6E0A326D6C99E00A54D6C /* Tela4.storyboard in Resources */,
 				65B6E09E26D6C48900A54D6C /* TononTela02.storyboard in Resources */,
 				65B6E07F26D6B7FA00A54D6C /* Main.storyboard in Resources */,
 			);
@@ -218,7 +240,9 @@
 			files = (
 				3A379E8426D6C5A50041FDBF /* PauloTela2ViewController.swift in Sources */,
 				65B6E09526D6BCA100A54D6C /* SegundoVC.swift in Sources */,
+				65B6E0A926D6C9D200A54D6C /* Tela4.swift in Sources */,
 				3A379E8B26D6C7190041FDBF /* PauloTela3ViewController.swift in Sources */,
+				65B6E0A626D6C9BA00A54D6C /* Tela4ViewController.swift in Sources */,
 				65B6E0A026D6C49F00A54D6C /* TononTela02ViewController.swift in Sources */,
 				3A379E7F26D6C1A60041FDBF /* PauloTela1ViewController.swift in Sources */,
 				65B6E07C26D6B7FA00A54D6C /* ViewController.swift in Sources */,
