@@ -13,6 +13,9 @@
 		65B6E07F26D6B7FA00A54D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E07D26D6B7FA00A54D6C /* Main.storyboard */; };
 		65B6E08126D6B7FC00A54D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E08026D6B7FC00A54D6C /* Assets.xcassets */; };
 		65B6E08426D6B7FC00A54D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E08226D6B7FC00A54D6C /* LaunchScreen.storyboard */; };
+		65B6E09226D6BC6800A54D6C /* Segundo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E09126D6BC6800A54D6C /* Segundo.storyboard */; };
+		65B6E09526D6BCA100A54D6C /* SegundoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6E09326D6BCA100A54D6C /* SegundoVC.swift */; };
+		65B6E09626D6BCA100A54D6C /* SegundoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B6E09426D6BCA100A54D6C /* SegundoVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		65B6E08026D6B7FC00A54D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B6E08326D6B7FC00A54D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B6E08526D6B7FC00A54D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B6E09126D6BC6800A54D6C /* Segundo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Segundo.storyboard; sourceTree = "<group>"; };
+		65B6E09326D6BCA100A54D6C /* SegundoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoVC.swift; sourceTree = "<group>"; };
+		65B6E09426D6BCA100A54D6C /* SegundoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegundoVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		65B6E07626D6B7FA00A54D6C /* BrincandoDeMerge */ = {
 			isa = PBXGroup;
 			children = (
+				65B6E09026D6BC5200A54D6C /* Segundo */,
 				65B6E07726D6B7FA00A54D6C /* AppDelegate.swift */,
 				65B6E07926D6B7FA00A54D6C /* SceneDelegate.swift */,
 				65B6E07B26D6B7FA00A54D6C /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				65B6E08526D6B7FC00A54D6C /* Info.plist */,
 			);
 			path = BrincandoDeMerge;
+			sourceTree = "<group>";
+		};
+		65B6E09026D6BC5200A54D6C /* Segundo */ = {
+			isa = PBXGroup;
+			children = (
+				65B6E09126D6BC6800A54D6C /* Segundo.storyboard */,
+				65B6E09326D6BCA100A54D6C /* SegundoVC.swift */,
+				65B6E09426D6BCA100A54D6C /* SegundoVC.xib */,
+			);
+			path = Segundo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B6E08426D6B7FC00A54D6C /* LaunchScreen.storyboard in Resources */,
+				65B6E09626D6BCA100A54D6C /* SegundoVC.xib in Resources */,
 				65B6E08126D6B7FC00A54D6C /* Assets.xcassets in Resources */,
+				65B6E09226D6BC6800A54D6C /* Segundo.storyboard in Resources */,
 				65B6E07F26D6B7FA00A54D6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B6E09526D6BCA100A54D6C /* SegundoVC.swift in Sources */,
 				65B6E07C26D6B7FA00A54D6C /* ViewController.swift in Sources */,
 				65B6E07826D6B7FA00A54D6C /* AppDelegate.swift in Sources */,
 				65B6E07A26D6B7FA00A54D6C /* SceneDelegate.swift in Sources */,
